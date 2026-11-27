@@ -1,86 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Laboratoy Activity | HTML</title>
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Yeorge Barbaza | Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
-    <header class="navbar">
-      <span class="logo">Jurrasic Park</span>
-      <nav>
-        <a href="#home">Home</a>
-        <a href="#lists">Lists</a>
-        <a href="#links">Links</a>
-      </nav>
-    </header>
+  <nav class="navbar">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#hobbies">Hobbies</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button id="themeToggle" type="button">Dark mode</button>
+  </nav>
 
-    <section id="home" class="hero">
-      <h1>Welcome to Jurrasic Park</h1>
-      <p class="verse">"May the God of hope fill you with all joy and peace as you trust in him, so that you may overflow with hope by the power of the Holy Spirit."</p>
-      <p class="verse-ref">- Romans 15:13</p>
-      <a class="button" href="#lists">Explore</a>
+  <header class="hero">
+    <!-- To use a real photo, replace the div below with:
+         <img class="avatar" src="photo.jpg" alt="Photo of Yeorge"> -->
+    <div class="avatar">YB</div>
+    <div class="hero-text">
+      <h1>Yeorge Hesih Dacuno Barbaza</h1>
+      <p class="tagline">Future Game Developer</p>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="about">
+      <h2>About Me</h2>
+      <p>
+        Hi! I'm Yeorge, an aspiring game developer who loves games, sports,
+        and stories. I'm learning to code and design, one project at a time.
+      </p>
     </section>
 
-    <main>
-      <section id="lists">
-        <h2>Lists</h2>
-        <div class="grid">
-
-          <div class="card">
-            <h3>Top 10 Anime of All Time</h3>
-            <ol>
-              <li>One Piece</li>
-              <li>Dragon Ball Z/Super</li>
-              <li>Naruto</li>
-              <li>Attack On Titan</li>
-              <li>Full Metal Alchemist</li>
-              <li>Bleach</li>
-              <li>Fairy Tail</li>
-              <li>Death Note (first part only when L is still alive)</li>
-              <li>GTO (if yk yk)</li>
-              <li>Cyberpunk: Edge Runners</li>
-            </ol>
-          </div>
-
-          <div class="card">
-            <h3>Things You Need When Playing Valorant</h3>
-            <ul>
-              <li>A Computer Set up</li>
-              <li>Good aim</li>
-              <li> <img class="photo" src="https://kotaku.com/app/uploads/2022/04/b3963f97bfe111901271ea903490ac3f-1200x675.jpg" alt="Ishowspeed Valorant">
-          </div>
+    <section id="education">
+      <h2>Educational Background</h2>
+      <div class="cards">
+        <!-- Replace the text below with your own school details -->
+        <div class="card">
+          <h3>College</h3>
+          <p>Your School Name</p>
+          <p>Your Course, Year Level</p>
         </div>
-      </section>
-
-      <section id="links">
-        <h2>Links</h2>
-        <div class="link-row">
-
-          <a class="link-card" href="https://www.google.com">
-            <img src="https://img.icons8.com/color-pixels/1200/google-logo.jpg" alt="Google">
-            <span>Google</span>
-          </a>
-
-          <a class="link-card" href="https://www.wikipedia.org">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfWdcsppoXnCovNCA-qV0NV-KD_FJTgKaQF-VLqZAxcg&s=10" alt="Wikipedia">
-            <span>Wikipedia</span>
-          </a>
-
-          <a class="link-card" href="https://www.facebook.com/">
-            <img src="https://z-m-static.xx.fbcdn.net/rsrc.php/yt/r/DUiOg0mJTjz.webp" alt="Facebook">
-            <span>Facebook</span>
-          </a>
-
+        <div class="card">
+          <h3>Senior High School</h3>
+          <p>Your School Name</p>
+          <p>Your Strand, Year Graduated</p>
         </div>
-      </section>
-    </main>
+      </div>
+    </section>
 
-    <footer>
-      <p>&copy; 2026 Yeorge Hesih D. Barbaza</p>
-    </footer>
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Coding</h3>
+          <p>Basic knowledge of Python and Java.</p>
+        </div>
+        <div class="card">
+          <h3>Communication</h3>
+          <p>Good communication in English and Tagalog.</p>
+        </div>
+        <div class="card">
+          <h3>3D Design</h3>
+          <p>Medium-level skills in 3D design.</p>
+        </div>
+      </div>
+    </section>
 
-  </body>
+    <section id="hobbies">
+      <h2>Hobbies</h2>
+      <div class="cards">
+        <div class="card">Reading</div>
+        <div class="card">Playing online games</div>
+        <div class="card">Working out in the gym</div>
+        <div class="card">Playing basketball</div>
+      </div>
+
+      <h2>Interests</h2>
+      <div class="cards">
+        <div class="card">Sports</div>
+        <div class="card">Anime</div>
+        <div class="card">Online games</div>
+        <div class="card">Manga and manhwa</div>
+      </div>
+    </section>
+
+    <section class="career">
+      <h2>Career Prospects</h2>
+      <p>
+        I want to become a successful game developer and create a collection
+        of games that help people sharpen their practical and mental skills.
+      </p>
+    </section>
+
+    <section class="quote">
+      <h2>Favorite Quote</h2>
+      <blockquote>
+        &ldquo;It takes simpleness to produce complexness.&rdquo;
+        <cite>by Yeorge Barbaza</cite>
+      </blockquote>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <!-- Replace with your real email -->
+      <p>Email: <strong>youremail@example.com</strong></p>
+
+      <form id="contactForm" novalidate>
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Your name">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Your email">
+
+        <label for="message">Message</label>
+        <textarea id="message" rows="4" placeholder="Your message"></textarea>
+
+        <button type="submit">Send Message</button>
+        <p id="formMessage"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made with HTML, CSS and JavaScript by Yeorge Barbaza</p>
+    <p>Current time: <span id="currentTime"></span></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>
